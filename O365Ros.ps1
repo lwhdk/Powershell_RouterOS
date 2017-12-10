@@ -1,4 +1,4 @@
-﻿
+#﻿
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $o365Ips = "https://support.content.office.net/en-us/static/O365IPAddresses.xml"
 
@@ -57,4 +57,4 @@ $o365 | foreach { $Prod = $_.Product  ; $ips = $_.IPaddresses ; $Prod + " : " + 
 foreach ($ip in $ips){ $RosAddList + $ip + $RosComment +  $Prod | out-file $RosScriptOutput -Encoding unicode -Append }; `
 ` }
 #Write-host "test "
-get-content $RosScriptOutput
+#get-content $RosScriptOutput
