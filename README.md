@@ -5,3 +5,5 @@ script køre i service konto, downloader og placere output på en web-server hvo
 
 Pas på, da det er kommandoer som køres, skal filen håndteret med høj sikkerhed, eller vil fremmede kunne indskyde kode som vil blive 
 afviklet på Mikrotik / RouterOS enheden
+
+Jeg er overgået til at varetage disse blocklister via MineMeld 
